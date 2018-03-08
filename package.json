@@ -1,0 +1,30 @@
+{
+  "name": "typescript-vue-tutorial",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/vue-material": "git+https://github.com/calebsander/vue-material-types.git",
+    "css-loader": "^0.28.10",
+    "style-loader": "^0.20.2",
+    "ts-loader": "^4.0.1",
+    "typescript": "^2.7.2",
+    "vue": "^2.5.13",
+    "vue-loader": "^14.1.1",
+    "vue-template-compiler": "^2.5.13",
+    "webpack": "^4.1.0",
+    "webpack-cli": "^2.0.10",
+    "webpack-dev-server": "^3.1.0"
+  },
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack-dev-server",
+    "test": "ech \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "vue-class-component": "^6.2.0",
+    "vue-material": "^1.0.0-beta-7",
+    "vue-property-decorator": "^6.0.0",
+    "vuetify": "^1.0.5"
+  }
+}
