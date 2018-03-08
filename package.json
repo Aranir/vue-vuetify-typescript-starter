@@ -4,7 +4,6 @@
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
-    "@types/vue-material": "git+https://github.com/calebsander/vue-material-types.git",
     "css-loader": "^0.28.10",
     "style-loader": "^0.20.2",
     "ts-loader": "^4.0.1",
@@ -23,7 +22,6 @@
   },
   "dependencies": {
     "vue-class-component": "^6.2.0",
-    "vue-material": "^1.0.0-beta-7",
     "vue-property-decorator": "^6.0.0",
     "vuetify": "^1.0.5"
   }
