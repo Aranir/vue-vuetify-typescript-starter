@@ -18,7 +18,7 @@
   },
   "scripts": {
     "build": "webpack",
-    "dev": "webpack-dev-server",
+    "dev": "webpack-dev-server && cp ./index.html dist/index.html",
     "test": "ech \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
